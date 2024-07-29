@@ -53,9 +53,20 @@ h1,h2{
     color: #71757D;
 }
 #services svg{
-    width: 100px;
+    /* width: 150px; */
+    margin: auto;
     color: #fff;
 }
+#services .icons{
+    background-color: #FDB905;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: block;
+}
+
+
 /* portefolio */
 #portefolio .port-absolute-1{
     top: 0;
@@ -167,7 +178,7 @@ footer .icons a{
     width: 40px;
     height: 40px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .timeline{
         width: 100%;
     }
@@ -189,5 +200,9 @@ footer .icons a{
     /* team */
     #team .col-md-4{
         margin-top: 10rem;
+    }
+    /* footer */
+    footer{
+        text-align: center;
     }
 }
