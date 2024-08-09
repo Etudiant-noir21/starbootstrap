@@ -174,11 +174,15 @@ h1,h2{
 
 }
 /* footer */
+/* modal */
+.close-modal img{
+    width: 50px;
+}
 footer .icons a{
     width: 40px;
     height: 40px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .timeline{
         width: 100%;
     }
@@ -188,9 +192,10 @@ footer .icons a{
     }
     .timeline::after{
         left: 10%;
+        display: none;
     }
     .timeline .img-fluid{
-        left: -5%;
+        left: -2%;
     }
     .timeline .text-box{
         padding: 10;
@@ -206,3 +211,4 @@ footer .icons a{
         text-align: center;
     }
 }
+
